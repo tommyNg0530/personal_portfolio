@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  fdm,
   tesla,
   shopify,
   carrent,
@@ -111,7 +111,7 @@ const experiences = [
   {
     title: "IT Consultant",
     company_name: "FDM GROUP",
-    icon: starbucks,
+    icon: fdm,
     iconBg: "#383E56",
     date: "July 2024 - now",
     points: [
@@ -124,7 +124,7 @@ const experiences = [
   {
     title: "Programmer",
     company_name: "Technine  Limited",
-    icon: starbucks,
+    icon: fdm,
     iconBg: "#383E56",
     date: "Dec 2023 - Feb 2024",
     points: [
