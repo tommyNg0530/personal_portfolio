@@ -61,7 +61,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Full-Stack",
+    title: "Full-Stack \n Development",
     icon: mobile,
   },
   {
@@ -136,10 +136,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+
     ],
   },
   {
@@ -149,10 +146,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2023 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+
+
     ],
   },
   {
@@ -173,7 +168,7 @@ const experiences = [
     company_name: "Wealth Management Cube Limited",
     icon: wmc,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2022 - Feb 2023",
     points: [
       "Developed an end-to-end funds search engine, web-based application,",
       "for searching complex fund combinations which reduced 80% of the clients' investment procedures",
@@ -186,7 +181,7 @@ const experiences = [
     company_name: "Hong Kong Science and Technology Parks",
     icon: hkstp,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Aug 2021",
     points: [
       "Constructed an end-to-end AI application, floor plan recognizer to automate the process of floor plan modeling.",
       "Simplified 90% of manual floor plan modeling for the smart office system with 89% prediction accuracy",
