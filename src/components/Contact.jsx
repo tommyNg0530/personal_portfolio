@@ -26,7 +26,7 @@ const Contact = () => {
       [name]: value,
     });
   };
-
+  {/* Not used */}
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -85,11 +85,12 @@ const Contact = () => {
 
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Email</span>
+            <span className='text-white font-medium mb-4'>My GitHub</span>
 
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>Email</span>
+            
           </label>
         </form>
       </motion.div>

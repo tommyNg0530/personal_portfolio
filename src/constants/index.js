@@ -1,30 +1,40 @@
 import {
+
+  // icons for - about me 
   mobile,
   backend,
   creator,
   web,
+
+  // icons for - tech
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
+  python,
+  tensorflow,
+
+  // icons for - experience
   fdm,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  technine,
+  imbee,
+  wmc,
+  hkstp,
+
+  // icons for - projects
+  project_floor_plan,
+
   tripguide,
-  threejs,
+  pytorch,
 } from "../assets";
 
+
+// Add Navigation links here
 export const navLinks = [
   {
     id: "about",
@@ -44,6 +54,7 @@ export const navLinks = [
   },
 ];
 
+// Add Cards details here
 const services = [
   {
     title: "AI Application \n (LLM, Gen-AI)",
@@ -64,6 +75,7 @@ const services = [
   },
 ];
 
+// Add Technology ball details here
 const technologies = [
   {
     name: "HTML 5",
@@ -94,8 +106,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "TensorFlow",
+    icon: tensorflow,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
     name: "git",
@@ -107,9 +127,10 @@ const technologies = [
   },
 ];
 
+// Add Experience details here
 const experiences = [
   {
-    title: "IT Consultant",
+    title: "Software Engineer - IT Consultant",
     company_name: "FDM GROUP",
     icon: fdm,
     iconBg: "#383E56",
@@ -124,7 +145,7 @@ const experiences = [
   {
     title: "Programmer",
     company_name: "Technine  Limited",
-    icon: fdm,
+    icon: technine,
     iconBg: "#383E56",
     date: "Dec 2023 - Feb 2024",
     points: [
@@ -137,7 +158,7 @@ const experiences = [
   {
     title: "Frontend Engineer",
     company_name: "imBee Limited",
-    icon: tesla,
+    icon: imbee,
     iconBg: "#E6DEDD",
     date: "Jul 2023 - Aug 2023",
     points: [
@@ -148,29 +169,29 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "IT Developer",
+    company_name: "Wealth Management Cube Limited",
+    icon: wmc,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an end-to-end funds search engine, web-based application,",
+      "for searching complex fund combinations which reduced 80% of the clients' investment procedures",
+      "Utilized HTML, Bootstrap, JavaScript, MySQL, and WordPress",
+      "Developed web scrapers and pipelines with database operations to automate the fund data collection streamline, utilized Python and Selenium"
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Junior Software Developer",
+    company_name: "Hong Kong Science and Technology Parks",
+    icon: hkstp,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Constructed an end-to-end AI application, floor plan recognizer to automate the process of floor plan modeling.",
+      "Simplified 90% of manual floor plan modeling for the smart office system with 89% prediction accuracy",
+      "Utilized Python, TensorFlow, OpenCV, Pandas, and Scikit-Learn"
+
     ],
   },
 ];
@@ -202,48 +223,28 @@ const testimonials = [
   },
 ];
 
+// Add Project details here
 const projects = [
   {
-    name: "Car Rent",
+    name: "HKSTP - 2D Floor Plan Recognizor",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "2D-floor-plan-Recognizor is a web-based application that allows users to import a 2D floor plan image and automatically generate a 3D model of the floor plan.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TensorFlow",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Image Segmentation",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: project_floor_plan,
+    source_code_link: "https://github.com/tommyNg0530/2D-floor-plan-Recognition-2021",
   },
   {
     name: "Trip Guide",

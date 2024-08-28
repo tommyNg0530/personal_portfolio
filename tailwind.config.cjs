@@ -21,6 +21,15 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      animation:{
+        'gradient': 'gradient 8s ease infinite',
+      },
+      keyframes: {
+        gradient: {
+          to : {
+            backgroundPosition: '200% center'}
+        }
+      }
     },
   },
   plugins: [],
