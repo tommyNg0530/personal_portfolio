@@ -3,8 +3,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { ngsiuwa } from "../assets";
+import { useState } from "react";
 
 const Hero = () => {
+
+  const [finishFirstTyping, setFinishFirstTyping] = useState(false);
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -18,24 +22,35 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white `}>
             Hi, I'm &nbsp;
+            
             {/* TODO: Rgb gradient transition for name */}
             <span className="bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">
               Tommy NG
             </span>  
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 mt-10`}>
-            A software engineer  
-          </p>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 mt-3`}>
-            Specialize in AI applications & Full-Stack development
-          </p>
-        
-           
+          <div className="">
+            {/* Typewriter animation for hero subtext */}
+            { !finishFirstTyping ?
+                <p
+                className={`${styles.heroSubText} text-white-100 mt-10 pr-2 relative w-[max-content]  before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white`}
+                onAnimationEnd={() => setFinishFirstTyping(true)}
+                >
+                  A software engineer
+                </p>
+              : 
+                <p className={`${styles.heroSubText} text-white-100 mt-10 pr-2 relative w-[max-content]`}>
+                  A software engineer
+                </p>
+            }
+            {finishFirstTyping && (
+              <p className={`${styles.heroSubText} text-white-100 mt-3 pr-2 relative w-[max-content]  before:absolute before:inset-0 before:animate-typewriter before:bg-black after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-white`}>
+                Specialize in AI applications & Full-Stack development
+              </p>
+            )}
+          </div>
         </div>
-        
-        {/* Circular icon */}
         <div className="flex flex-col justify-left mt-5  ml-20" style={{ width: '270px'}}>
           <img src={ngsiuwa} alt="headshot" className="rounded-full border-4 border-[rgb(255, 0, 0)] max-w-1xl" />
         </div>
