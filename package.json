@@ -9,12 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@botpress/webchat": "^2.1.10",
+    "@botpress/webchat-generator": "^0.2.9",
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
+    "axios": "^1.7.6",
     "framer-motion": "^9.0.7",
     "maath": "^0.5.2",
     "react": "^18.0.0",
+    "react-chatbotify": "^2.0.0-beta.6",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-tilt": "^1.0.2",

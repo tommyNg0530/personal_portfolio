@@ -242,25 +242,29 @@ const projects = [
     source_code_link: "https://github.com/tommyNg0530/2D-floor-plan-Recognition-2021",
   },
   {
-    name: "Trip Guide",
+    name: "I-Bike",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "",
     tags: [
       {
-        name: "nextjs",
+        name: "C Programming",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Arduino",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "IoT",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Embedded Systems",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tommyNg0530/I-Bike",
   },
 ];
 
