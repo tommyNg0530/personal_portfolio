@@ -39,6 +39,7 @@ import wmc from "./company/wmc.png";
 // For page - Projects
 import project_floor_plan from "./project_floor_plan.png";
 import tripguide from "./tripguide.png";
+import bicycle from "./bicycle.png";
 import { i } from "maath/dist/index-43782085.esm";
 
 export {
@@ -81,6 +82,7 @@ export {
   // icons for - projects
   tripguide,
   project_floor_plan,
+  bicycle,
 
 
 

@@ -28,7 +28,7 @@ import {
 
   // icons for - projects
   project_floor_plan,
-
+  bicycle,
   tripguide,
   pytorch,
 } from "../assets";
@@ -263,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bicycle,
     source_code_link: "https://github.com/tommyNg0530/I-Bike",
   },
 ];
