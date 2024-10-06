@@ -37,7 +37,8 @@ const config = {
   },
 };
 
-const clientId = process.env.BOT_PRESS_CLIENT_ID;
+// Load environment variables
+const clientId = import.meta.env.VITE_BOT_PRESS_CLIENT_ID;
 
 const Chatbot = () => {
   const client = getClient({ clientId });
