@@ -136,18 +136,21 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - now",
     points: [
-
+      "Built a Forex Trading Platform’s FE architecture and implemented BE APIs for trading & market FX data management as a Full-Stack developer and Scrum Master.",
+      "Developed an LLM-based Search Engine during a 24-hour hackathon supervised by the Nomura Quant team, achieving First Runner-Up by implementing RAG and backend data pipeline for LLM to perform database queries.",
+      "Developed a strong foundation in Java, including key tools such as log4j2, Mockito, Maven, Eclipse, and Git.",
+      "Mastered Java Core Fundamentals, emphasizing proficiency in the language's essential aspects.",
     ],
   },
   {
     title: "Programmer",
-    company_name: "Technine  Limited",
+    company_name: "Technine Limited",
     icon: technine,
     iconBg: "#383E56",
     date: "Dec 2023 - Feb 2024",
     points: [
-
-
+      "Developed a web3 NFT fitness mobile app, and implemented NFT Crypto wallets and login authentication using React.native, Typescript, RESTful API, and Node.js",
+      "Supported CI/CD processes by conducting BE API testing, managing application deployment, and performing production tests utilizing Jira, Postman, GitLab, Xcode, and Android Studio",
     ],
   },
   {
@@ -160,7 +163,7 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to other developers."
     ],
   },
   {
@@ -170,10 +173,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2022 - Feb 2023",
     points: [
-      "Developed an end-to-end funds search engine, web-based application,",
-      "for searching complex fund combinations which reduced 80% of the clients' investment procedures",
-      "Utilized HTML, Bootstrap, JavaScript, MySQL, and WordPress",
-      "Developed web scrapers and pipelines with database operations to automate the fund data collection streamline, utilized Python and Selenium"
+      "Developed an end-to-end funds search engine, web-based application, for searching complex fund combinations which reduced 80% of the clients' investment procedures.",
+      "Utilized HTML, Bootstrap, JavaScript, MySQL, and WordPress.",
+      "Developed web scrapers and pipelines with database operations to automate the fund data collection streamline, utilized Python and Selenium."
     ],
   },
   {
@@ -184,9 +186,8 @@ const experiences = [
     date: "Jan 2021 - Aug 2021",
     points: [
       "Constructed an end-to-end AI application, floor plan recognizer to automate the process of floor plan modeling.",
-      "Simplified 90% of manual floor plan modeling for the smart office system with 89% prediction accuracy",
-      "Utilized Python, TensorFlow, OpenCV, Pandas, and Scikit-Learn"
-
+      "Simplified 90% of manual floor plan modeling for the smart office system with 89% prediction accuracy.",
+      "Utilized Python, TensorFlow, OpenCV, Pandas, and Scikit-Learn."
     ],
   },
 ];
