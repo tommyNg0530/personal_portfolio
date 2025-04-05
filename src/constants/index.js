@@ -130,6 +130,16 @@ const technologies = [
 // Add Experience details here
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Nomura",
+    icon: fdm,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - now",
+    points: [
+
+    ],
+  },
+  {
     title: "Software Engineer - IT Consultant",
     company_name: "FDM GROUP",
     icon: fdm,
@@ -224,7 +234,7 @@ const projects = [
   {
     name: "HKSTP - 2D Floor Plan Recognizor",
     description:
-      "2D-floor-plan-Recognizor is a web-based application that allows users to import a 2D floor plan image and automatically generate a 3D model of the floor plan.",
+      "2D-floor-plan-Recognizor is a web-based application that allows users to import a 2D floor plan image and automatically generate a 2D segmentation version of the floor plan.",
     tags: [
       {
         name: "Python",
@@ -245,7 +255,7 @@ const projects = [
   {
     name: "I-Bike",
     description:
-      "",
+      "I-bike is a integrated bicycle system that allows auto-derailing with slope sensing, bluetooth control, and a mobile app for real-time speed & distance monitoring.",
     tags: [
       {
         name: "C Programming",

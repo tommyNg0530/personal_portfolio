@@ -50,9 +50,10 @@ const Chatbot = () => {
 
   return (
     <div
+      className="flex flex-col justify-center items-center bg-white shadow-lg"
       style={{
-        width: "40vw",
-        height: "40vh",
+        width: "55vw",
+        height: "43vh",
         marginTop: "20px",
         position: "absolute",
         textAlign: "left",
