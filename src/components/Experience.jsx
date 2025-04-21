@@ -19,27 +19,41 @@ const ExperienceCard = ({ experience }) => {
         background: "#1d1836",
         color: "#fff",
       }}
-      contentArrowStyle={{ borderRight: "17px solid  #232631" }}
-      date={experience.date}
+      contentArrowStyle={{ borderRight: "15px solid  #232631" }}
       iconStyle={{
         background: experience.iconBg,
-        width: "80px",
-        height: "80px",
+        width: "90px",
+        height: "90px",
+        boxShadow:
+          "0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05)",
+        marginLeft: "-45px", // Adjust to center the larger icon
       }}
       icon={
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center items-center w-full h-full p-2">
+          {" "}
+          {/* Added padding */}
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[70%] h-[70%] object-contain"
+            className="w-[85%] h-[85%] object-contain" // Increased from 70%
+            style={{
+              filter: experience.iconInvert ? "invert(1)" : "none", // Optional: add support for inverting icons if needed
+              maxWidth: "100%",
+              maxHeight: "100%",
+            }}
           />
         </div>
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">
-          {experience.company_name}
-        </h3>
+        <div className="flex justify-between items-center">
+          <h3 className="text-white text-[24px] font-bold">
+            {experience.company_name}
+          </h3>
+          <p className="text-white-100 text-[14px] font-semibold bg-tertiary py-1 px-3 rounded-md">
+            {experience.date}
+          </p>
+        </div>
         <h3
           className="text-secondary text-[20px] font-semibold"
           style={{ margin: 0 }}
@@ -75,7 +89,9 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline
+          lineColor="#915EFF" // Added a custom line color to match your theme
+        >
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}

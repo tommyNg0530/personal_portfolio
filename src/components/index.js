@@ -9,6 +9,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Chatbot from "./chatbot";
+import GitHub from "./GitHub";
 
 export {
   Hero,
@@ -20,9 +21,10 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
   StarsCanvas,
-  Chatbot
+  Chatbot,
+  GitHub
 };
