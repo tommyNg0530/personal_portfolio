@@ -34,7 +34,7 @@ import hkstp from "./company/hkstp.png";
 import imbee from "./company/imbee.png";
 import technine from "./company/technine.png";
 import wmc from "./company/wmc.png";
-
+import nomura from "./company/nomura.png";
 
 // For page - Projects
 import project_floor_plan from "./project_floor_plan.png";
@@ -77,13 +77,11 @@ export {
   imbee,
   technine,
   wmc,
-
+  nomura,
 
   // icons for - projects
   tripguide,
   project_floor_plan,
   bicycle,
-
-
 
 };

@@ -25,6 +25,7 @@ import {
   imbee,
   wmc,
   hkstp,
+  nomura, // Add Nomura import
 
   // icons for - projects
   project_floor_plan,
@@ -132,18 +133,17 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Nomura",
-    icon: fdm,
-    iconBg: "#E6DEDD",
+    icon: nomura,
+    iconBg: "#ffffff",
     date: "Jan 2025 - now",
     points: [
-
     ],
   },
   {
     title: "Software Engineer - IT Consultant",
     company_name: "FDM GROUP",
     icon: fdm,
-    iconBg: "#383E56",
+    iconBg: "#C5FF00",
     date: "July 2024 - now",
     points: [
       "Built a Forex Trading Platform’s FE architecture and implemented BE APIs for trading & market FX data management as a Full-Stack developer and Scrum Master.",
@@ -156,7 +156,7 @@ const experiences = [
     title: "Programmer",
     company_name: "Technine Limited",
     icon: technine,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Dec 2023 - Feb 2024",
     points: [
       "Developed a web3 NFT fitness mobile app, and implemented NFT Crypto wallets and login authentication using React.native, Typescript, RESTful API, and Node.js",
@@ -180,7 +180,7 @@ const experiences = [
     title: "IT Developer",
     company_name: "Wealth Management Cube Limited",
     icon: wmc,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Dec 2022 - Feb 2023",
     points: [
       "Developed an end-to-end funds search engine, web-based application, for searching complex fund combinations which reduced 80% of the clients' investment procedures.",
@@ -192,7 +192,7 @@ const experiences = [
     title: "Junior Software Developer",
     company_name: "Hong Kong Science and Technology Parks",
     icon: hkstp,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Jan 2021 - Aug 2021",
     points: [
       "Constructed an end-to-end AI application, floor plan recognizer to automate the process of floor plan modeling.",
