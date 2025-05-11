@@ -12,6 +12,8 @@ import {
   GitHub,
 } from "./components";
 
+posthog?.capture("User view app"); // using optional chaining
+
 const App = () => {
   return (
     <BrowserRouter>
